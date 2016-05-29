@@ -120,7 +120,6 @@ class Pet(object):
         the pet dies. Returns the Pet's name and type """
         if self.check_limits():
             return False
-            return self.name + " the " + self.species
         else:
             return True
 
